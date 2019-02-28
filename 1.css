@@ -1,0 +1,289 @@
+/*---------------------------HEADER----------------------------*/
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header{
+	background: url(img/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 100vh;
+}
+
+.container{
+	width: 1450px;
+	margin: 0 auto;
+}
+
+
+.logo {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+.menu a {
+	color:  #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	float: left;
+}
+
+.titels__first{
+	font-size: 72px;
+	color: #fff;
+	text-transform: none;
+	text-align: center;	
+	margin-top: 173px;
+	font-family:Monotype Corsiva;
+
+}
+
+h1 {
+	font-size: 150px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin:0;
+}
+
+.button {
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	border: 3px solid white;
+    width: 180px;
+    padding:10px 0;
+	text-align: center;
+	margin-top: 126px;
+}
+
+.button:hover {
+  background-color: rgba(112,112,112,0.5);
+}
+
+
+.align__left {
+	margin-left: 65px;
+	margin-top: 100px;
+}
+
+.align {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;	
+}
+/*---------------------------HEADER----------------------------*/
+/*--------------------------SERVICES---------------------------*/
+
+.story {
+	margin-top: 92px;
+}
+
+.story_name{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.story h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family:Montserrat;
+}
+
+.story p {
+	margin-top: 50px;
+	font-size: 15px;
+	font-family: Roboto;
+	text-align: center;
+}
+
+.services__item {
+	margin-top: 100px;
+}
+
+.services__item {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#services{
+	padding-bottom: 30px;
+	text-align: center; 
+}/*--------------------------SERVICES---------------------------*/
+/*---------------------------------NUMBER------------------------*/
+.col-5 {
+	margin-top: 90px;
+	color: #FFF;
+	text-align: center;
+	
+	
+}
+.block__flex{
+	display: flex;	
+	flex-direction: row-reverse;
+	justify-content: space-around;	
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;	
+}
+
+.col-5 h1{
+	font-size: 72px;	
+}
+
+.col-5 p{
+	font-size: 14px;
+}
+
+#number {
+	background: #95e1d3;
+	margin-top: 112px;
+	height: 270px;
+}
+
+/*---------------------------------NUMBER------------------------*/
+/*--------------------------------AMAZING------------------------*/
+.title__amazing{
+	text-align: center;
+	margin-top: 114px;
+}
+.title__amazing h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family:Montserrat;
+}
+
+.container__flex {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 120px;
+	width: 1200px;
+	margin: 0 auto;
+	
+
+}
+
+.amazing__img {
+	width: 33.3%;
+	margin-top: 110px;	
+}
+
+
+/*--------------------------------AMAZING------------------------*/
+/*--------------------------------DESIGN------------------------*/
+.design__title {
+	text-align: center;
+
+}
+
+.img__title {
+	margin-top: 113px
+}
+
+.design__title h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family:Montserrat;
+}
+
+.design__container {
+	text-align: center;		
+}
+
+#design {
+	background: url(img/Design/bgdesign.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	height: 845px;
+}
+
+.design__iphone {
+	position: relative;
+	bottom: 390px;
+	left: 250px;
+}
+
+.design__img {
+	margin-bottom: :0;
+}
+/*--------------------------------DESIGN------------------------*/
+/*--------------------------------WHAT WE DO------------------------*/
+
+.img__we-do {
+	margin-top: 114px;
+}
+
+.text__we-do {
+	margin-top: 90px;
+}
+
+.container__what {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	margin:0;
+}
+
+.photo__what {
+	margin-top: 95px;	
+}
+/*--------------------------------WHAT WE DO------------------------*/
+/*--------------------------------WHAT WE DO------------------------*/
+.container__JonDoe {
+	background-color: #f8f8f8;
+	height: 292px;
+	text-align: center;	
+	margin-top: 120px;
+	background-color: #f8f8f8;
+	height: 292px;
+	margin-top: 190px
+}
+
+.img__jondoe {
+	margin-top: 100px;
+	border: 3px solid #aee0d2;
+	padding: 20px;
+	margin-right: 65px;
+}
